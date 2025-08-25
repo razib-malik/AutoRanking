@@ -80,7 +80,7 @@ def rank_pages(pages, query_keywords):
 
 st.title("🔎 Website Page Importance & Relevance Ranker")
 
-website = st.text_input("Enter Website URL (e.g., www.egain.com or https://egain.com):")
+website = st.text_input("Enter Website URL (e.g., www.egain.coms or https://egain.com):")
 keywords = st.text_input("Relevance Topic / Query (comma-separated keywords, optional):")
 
 if st.button("Analyze Website"):
